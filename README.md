@@ -1,42 +1,44 @@
-Smart Library Management System
-Overview
-The Smart Library Management System is a Java-based application designed to facilitate the management of books, users, and borrowing operations in a library setting. This project showcases my skills in Java programming, object-oriented design, and GUI development.
+📚 Smart Library Management System
 
-Features
-User Roles: Supports both Admin and Student roles with distinct functionalities.
-Book Management: Admins can add, remove, and view all books, while students can search and borrow available books.
-Search Functionality: Users can search for books by ID, title, or author with dynamic filtering.
-Data Persistence: Utilizes file I/O for data storage, ensuring that book and user information is retained across sessions.
-Intuitive GUI: Built using Java Swing, providing a user-friendly interface for seamless interaction.
-Technologies Used
-Java
-Swing (for GUI)
-Object-Oriented Programming (OOP)
-Data Structures (ArrayList, HashMap)
-File I/O (BufferedReader, BufferedWriter)
-Java Stream API
-Getting Started
-Clone the repository:
-bash
+A Java Swing-based desktop application designed to manage library operations efficiently.
+It allows user authentication, book borrowing & returning, borrow history tracking, and more — all with a clean and interactive GUI.
 
-Run
-Copy code
-git clone https://github.com/yourusername/smart-library-management-system.git
-Navigate to the project directory:
-bash
+✨ Features
+🔐 Login & Signup System – Secure authentication for users and admins.
 
-Run
-Copy code
-cd smart-library-management-system
-Compile and run the application:
-bash
+📖 Book Borrowing & Returning – Easy borrowing and return process.
 
-Run
-Copy code
-javac *.java
-java SmartLibrarySystem
-Contributing
-Feel free to fork the repository and submit pull requests for any improvements or features you'd like to add!
+🧾 Borrow History Tracking – View and manage the complete borrowing history.
 
-License
-This project is licensed under the MIT License.
+🔍 Borrow History Filtering – Search and filter by user, date, or book. (Planned feature)
+
+📊 Dashboard Overview – See key stats like books available, borrowed count, and overdue books. (Planned feature)
+
+💾 Persistent Data Storage – Save and load data from files for continuity. (Planned feature)
+
+🎨 Modern Look & Feel – Styled with FlatLaf for a sleek UI.
+
+🛠️ Tech Stack
+Language: Java
+
+GUI: Swing
+
+Look & Feel: FlatLaf
+
+IDE: Visual Studio Code / NetBeans
+
+Data Structures: ArrayLists, HashMaps, and custom classes
+
+📂 Project Structure
+
+SmartLibrarySystem/
+│
+├── Library.java              # Core library management logic
+├── LoginGUI.java              # User login screen
+├── SignupGUI.java             # New user registration
+├── MainDashboardGUI.java      # Main application dashboard
+├── BorrowBookGUI.java         # Book borrowing interface
+├── ReturnBookGUI.java         # Book returning interface
+├── BorrowHistoryGUI.java      # Borrow history view
+├── flatlaf-3.6.jar            # FlatLaf Look & Feel
+└── README.md                  # Project documentation
