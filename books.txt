@@ -1,0 +1,10 @@
+001;the pilgrim's progress;John bunyan;false
+003;Harry potter and the soccers stone;J K rowling;false
+002;to kill a mockingbird;harper lee;false
+004;Pride and Prejudice;John Austen;false
+005;The Great gatsby;F Scott;true
+007;The Catcher in the Rye;J D Salinger;false
+008;Moby-Dick;Herman Melville;true
+009;The Chronicles of Narnia;C S Lewis;true
+010;The AlChemist;Paulo Coelho;true
+012;The Child;Tiger T Sang;true

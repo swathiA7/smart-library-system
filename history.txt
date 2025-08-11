@@ -1,0 +1,17 @@
+student;001;2025-08-09;Borrowed
+student;001;2025-08-09;Borrowed
+student;001;2025-08-09;Borrowed
+student;002;2025-08-09;Borrowed
+student;002;2025-08-09;Returned
+student;003;2025-08-10;Borrowed
+student;001;2025-08-10;Returned
+swathi;001;2025-08-10;Borrowed
+swathi;007;2025-08-10;Borrowed
+swathi;004;2025-08-10;Borrowed
+swathi;002;2025-08-10;Borrowed
+admin;009;2025-08-10;Borrowed
+admin;009;2025-08-10;Returned
+student;012;2025-08-10;Borrowed
+student;012;2025-08-10;Returned
+Sandhya;009;2025-08-10;Borrowed
+Sandhya;009;2025-08-10;Returned

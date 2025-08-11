@@ -1,44 +1,33 @@
-📚 Smart Library Management System
+# 📚 Smart Library Management System
 
-A Java Swing-based desktop application designed to manage library operations efficiently.
-It allows user authentication, book borrowing & returning, borrow history tracking, and more — all with a clean and interactive GUI.
+A console-based Java application that simulates a smart library system using core data structures like HashMap, TreeMap, LinkedList, Queue, and PriorityQueue.
 
-✨ Features
-🔐 Login & Signup System – Secure authentication for users and admins.
+## 🚀 Features
 
-📖 Book Borrowing & Returning – Easy borrowing and return process.
+- Add and manage books
+- Register users
+- Issue and return books
+- Track most borrowed books
+- Maintain waiting list for popular books
+- Search books by title
 
-🧾 Borrow History Tracking – View and manage the complete borrowing history.
+## 🧠 Data Structures Used
 
-🔍 Borrow History Filtering – Search and filter by user, date, or book. (Planned feature)
+| Feature                    | Data Structure         |
+|----------------------------|------------------------|
+| Book storage               | HashMap                |
+| Title-based search         | TreeMap                |
+| User history               | LinkedList             |
+| Waiting list               | Queue (LinkedList)     |
+| Popular books ranking      | PriorityQueue (Heap)   |
 
-📊 Dashboard Overview – See key stats like books available, borrowed count, and overdue books. (Planned feature)
+## 🛠 Technologies
 
-💾 Persistent Data Storage – Save and load data from files for continuity. (Planned feature)
+- Java 17+
+- Console-based interaction
 
-🎨 Modern Look & Feel – Styled with FlatLaf for a sleek UI.
+## 📁 How to Run
 
-🛠️ Tech Stack
-Language: Java
-
-GUI: Swing
-
-Look & Feel: FlatLaf
-
-IDE: Visual Studio Code / NetBeans
-
-Data Structures: ArrayLists, HashMaps, and custom classes
-
-📂 Project Structure
-
-SmartLibrarySystem/
-│
-├── Library.java              # Core library management logic
-├── LoginGUI.java              # User login screen
-├── SignupGUI.java             # New user registration
-├── MainDashboardGUI.java      # Main application dashboard
-├── BorrowBookGUI.java         # Book borrowing interface
-├── ReturnBookGUI.java         # Book returning interface
-├── BorrowHistoryGUI.java      # Borrow history view
-├── flatlaf-3.6.jar            # FlatLaf Look & Feel
-└── README.md                  # Project documentation
+### Compile
+```bash
+javac SmartLibrarySystem.java
