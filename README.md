@@ -26,8 +26,4 @@ A console-based Java application that simulates a smart library system using cor
 - Java 17+
 - Console-based interaction
 
-## 📁 How to Run
 
-### Compile
-```bash
-javac SmartLibrarySystem.java
